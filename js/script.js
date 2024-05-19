@@ -22,3 +22,14 @@ function validateForm() {
     }
     return true;
 }
+
+function validateLogin() {
+    let user = document.getElementById("username").value;
+    let pass = document.getElementById("password").value;
+    if (user === "admin" && pass == 123) {
+        window.open('quiz.html') ;
+    } else {
+        alert("Usuário ou senha incorretos.");
+        return false;
+    }
+}
