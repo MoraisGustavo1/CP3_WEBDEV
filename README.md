@@ -17,7 +17,7 @@ Este é um projeto desenvolvido para a disciplina de Web Development, com o obje
 
 # Como acessar
 
-Para acessar o site clique no link: <br>
+Para acessar o site clique no link: https://moraisgustavo1.github.io/CP3_WEBDEV/ <br>
 Para acessar o quiz vá para a pagina de login e use essas informações:<br> usuário: admin <br>senha: 123
 
 # Colaboradores
