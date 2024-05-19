@@ -7,7 +7,45 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contatoS">
+            <h2 class="titulo">Fale Conosco</h2>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone">
+                
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <p>2024 Pet Shop Animalia. Todos os direitos reservados.</p>
+    </footer>
     <script src="./js/script.js"></script>
 </body>
 </html>
