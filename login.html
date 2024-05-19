@@ -7,7 +7,42 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Login</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="logins">
+            <h2 class="titulo">Acesse sua Conta</h2>
+            <form id="loginForm" onsubmit=" validateLogin()">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username">
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password">
+                
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <p>2024 Pet Shop Animalia. Todos os direitos reservados.</p>
+    </footer>
     <script src="./js/script.js"></script>
 </body>
 </html>
