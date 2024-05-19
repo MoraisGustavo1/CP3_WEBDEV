@@ -10,3 +10,15 @@ function showSlide() {
     currentSlide = (currentSlide + 1) % slides.length;
     slides[currentSlide].style.display = "block";
 }
+setInterval(showSlide, 2000);
+
+function validateForm() {
+    const nome = document.getElementById("nome").value;
+    const telefone = document.getElementById("telefone").value;
+    const email = document.getElementById("email").value;
+    if (nome === "" || telefone === "" || email === "") {
+        alert("Todos os campos são obrigatórios.");
+        return false;
+    }
+    return true;
+}
